@@ -4,7 +4,7 @@ import ChatInterface from '@/components/Chat/ChatInterface';
 import FileManager from '@/components/FileUpload/FileManager';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
-
+import '@/styles/globals.css';
 export default function ChatPage() {
   const router = useRouter();
   const [loading, setLoading] = useState(true);
